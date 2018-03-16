@@ -64,8 +64,8 @@ and [ccurl](https://github.com/iotaledger/ccurl.git), and override the iota.api.
   var iotaProxy = require('./lib/iotaproxy.js');
   iotaProxy.start(
     {
-      host: 'http://iota.bitfinex.com', 
-      port: 80, 
+      host: 'http://node.deviceproof.org', 
+      port: 14265,
       localPort: 14265,
       overrideAttachToTangle: true
     }
@@ -84,7 +84,7 @@ and [ccurl](https://github.com/iotaledger/ccurl.git), and override the iota.api.
   IOTA proxy server started
   POW timeout is set to 15 min
   Listening on port 14265
-  Relaying requests to iota.bitfinex.com:80  
+  Relaying requests to node.deviceproof.org:14265
   ```
 
 7. Now, in your [iota.lib.js](https://github.com/iotaledger/iota.lib.js) project you can simply connect to this local proxy server, which in turn connects with the tangle:

@@ -11,8 +11,8 @@ var iotaProxy = require('./lib/iotaproxy.js');
 
 iotaProxy.start(
   {
-    host: 'http://iota.bitfinex.com',
-    port: 80,
+    host: 'http://node.deviceproof.org',
+    port: 14265,
     localPort: 14265,
     overrideAttachToTangle: true,
     timeout: 15
