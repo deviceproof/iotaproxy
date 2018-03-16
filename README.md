@@ -1,4 +1,3 @@
-
 # IOTA Proxy
 
 A simple proxy server for the [IOTA](https://iota.org) tangle network, supporting the attachToTangle command (PoW).
@@ -43,7 +42,7 @@ and [ccurl](https://github.com/iotaledger/ccurl.git), and override the iota.api.
 1. Clone this repository:
 
   ```
-  git clone https://github.com/TimSamshuijzen/iotaproxy
+  git clone https://github.com/deviceproof/iotaproxy
   ```
 
 2. Enter the "iotaproxy" directory:
@@ -97,7 +96,3 @@ and [ccurl](https://github.com/iotaledger/ccurl.git), and override the iota.api.
     'port': 14265
   });
   ```
-  
-
-  
----
